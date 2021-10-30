@@ -37,7 +37,7 @@ Hover State
 
 Desktop Design
 
-![Desktop Design Preview](./screenshots/desktop-design.png)
+![Desktop Design Preview](./screenshots/desktop-design-v2.png)
 
 ### Links
 

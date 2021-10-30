@@ -48,7 +48,7 @@ html {
 }
 
 .container-card .container-image {
-  background: url("../images/illustration-hero.svg");
+  background: url("../images/illustration-hero.svg") no-repeat;
   width: 100%;
   height: 160px;
   background-size: 100%;
@@ -181,6 +181,14 @@ html {
 @media screen and (min-width: 769px) {
   .container {
     background: #e0e8ff url("../images/pattern-background-desktop.svg") no-repeat;
+  }
+  .container-card {
+    height: 650px;
+    width: 400px;
+  }
+  .container-card .container-image {
+    height: 200px;
+    background-position: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

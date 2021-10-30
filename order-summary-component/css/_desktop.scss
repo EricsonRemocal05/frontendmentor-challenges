@@ -2,5 +2,15 @@
   .container {
     background: $pale-blue url('../images/pattern-background-desktop.svg')
       no-repeat;
+
+    &-card {
+      height: 650px;
+      width: 400px;
+
+      .container-image {
+        height: 200px;
+        background-position: center;
+      }
+    }
   }
 }
