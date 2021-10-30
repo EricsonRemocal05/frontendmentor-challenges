@@ -41,8 +41,8 @@ Desktop Design
 
 ### Links
 
-- Solution URL: [repo link](https://your-solution-url.com)
-- Live Site URL: [order-summary-component](https://your-live-site-url.com)
+- Solution URL: [repo link](https://github.com/EricsonRemocal05/frontendmentor-challenges/tree/main/order-summary-component)
+- Live Site URL: [order-summary-component](https://romantic-hamilton-1367f7.netlify.app/)
 
 ## My process
 
