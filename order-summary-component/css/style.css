@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e0e8ff url("../images/pattern-background-mobile.svg") no-repeat;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.attribution {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.container-card {
+  height: 610px;
+  width: 375px;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.container-card .container-image {
+  background: url("../images/illustration-hero.svg");
+  width: 100%;
+  height: 160px;
+  background-size: 100%;
+}
+
+.container-card .container-description {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container-card .container-description h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+.container-card .container-description p {
+  font-size: 1.6rem;
+  margin: 2rem 5rem;
+  color: #7280a7;
+  line-height: 2.5rem;
+}
+
+.container-card .container-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 3.2rem 3rem;
+  background-color: #f5f7ff;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.container-card .container-price img {
+  margin-right: 1.2rem;
+}
+
+.container-card .container-price .container-price__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.container-card .container-price .container-price__description h2 {
+  color: #1f2f56;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.container-card .container-price .container-price__description h3 {
+  color: #7280a7;
+  font-size: 1.3rem;
+}
+
+.container-card .container-price .container-price-change {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.container-card .container-price .container-price-change:hover {
+  text-decoration: none;
+}
+
+.container-card .container-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 3.2rem 3rem;
+}
+
+.container-card .container-btn .btn {
+  background: none;
+  padding: 1.5rem;
+  width: 100%;
+  border: none;
+  font-weight: 900;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.container-card .container-btn .btn:hover {
+  -webkit-transition: 200ms ease-in;
+  transition: 200ms ease-in;
+}
+
+.container-card .container-btn .primary-btn {
+  color: #e0e8ff;
+  background: #3829e0;
+  -webkit-box-shadow: 0px 7px 10px 0.1px #7280a7;
+          box-shadow: 0px 7px 10px 0.1px #7280a7;
+}
+
+.container-card .container-btn .primary-btn:hover {
+  background: #786cf9;
+}
+
+.container-card .container-btn .secondary-btn {
+  color: #7280a7;
+  margin-top: 0.5rem;
+}
+
+.container-card .container-btn .secondary-btn:hover {
+  color: #1f2f56;
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    background: #e0e8ff url("../images/pattern-background-desktop.svg") no-repeat;
+  }
+}
+/*# sourceMappingURL=style.css.map */
